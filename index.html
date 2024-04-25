@@ -1,48 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Simple Markdown Template</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-      body { 
-        font-family:Roboto; 
-        max-width:800px; 
-        margin:2rem auto;
-      }
-    </style>
-  </head>
-  <body>
-    
-<!-- NO INDENT (marked.js is sensitive to whitespace) -->
-<div class="marked" style="display:none">
-# Owen's Landing Page
-> This is a work in progress
-  Here are all the elements that are accessible:
-  
-  - [Jellyfin](https://jellyfin.odaigle.xyz)
-  - [Website](https://landing.odaigle.xyz)
-  - [Nextcloud](https://nc.odaigle.xyz)
-  - [MC Map Survival](http://mcmap1.odaigle.xyz)
-  - [MC Map Creative](http://mcmap2.odaigle.xyz)
+<!DOCTYPE html5>
+<title>INDEX</title>
+<div class="chapter" id="chapter_1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Helps with mobile compatibility-->
 
-More will be added later.
-  
-</div>  
-<!-- /NO INDENT -->
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script>
-    // Parsing in the browser because performance is not a concern
-    document.querySelectorAll('.marked').forEach((element) => {
-      element.innerHTML = marked.parse(element.innerHTML);
-      // Initially hide then show the div to prevent FOUC
-      element.style.display = "block"; 
-    });
-  </script>   
-  </body>
-</html>
+<link rel="stylesheet" type="text/css" href="1mainResources/mainMenu.css">
+<link rel="shortcut icon" href="1mainResources/abs.png">
+
+<style>.menuBox {display:block;}</style>
+
+<div class="menuBoxBG"></div>
+  <div class="menuBox">
+    <p class="menuBoxTitle">Which area do you want to visit?</p>
+    <p class="menuBoxTitle">WEBSITE UNDER CONSTRUCTION</p>
+    <a href="https://jellyfin.odaigle.xyz", id="area">Jellyfin</a>
+    <a href="https://nc.odaigle.xyz", id="area">Nextcloud </a>
+    <a href="https://mcmap1.odaigle.xyz", id="area">Minecraft Survival World Map</a>
+    <a href="https://mcmap2.odaigle.xyz", id="area">Minecraft Creative World Map</a>
+    <a href="https://www.odaigle.xyz", id="area">Old Website </a>
+
+<!--NO JS SUPPORT-->
+<noscript><div id=area><h3>You do not have JavaScript, or it is disabled. Please enable JavaScript for the best experience. If you cannot, you may use this <a href="sitemap.html">menu</a>.</h3></div></noscript></div>
