@@ -147,7 +147,7 @@ services:
         tag: "game"
         keywords: "minecraft survival" # optional keyword used for searching purpose
         url: "https://mcmap1.odaigle.xyz"
-        - name: "Minecraft Creative World Map"
+      - name: "Minecraft Creative World Map"
         logo: ""
         subtitle: "mcmap2"
         tag: "game"
