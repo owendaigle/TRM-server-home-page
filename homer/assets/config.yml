@@ -131,8 +131,8 @@ services:
         subtitle: "Media Streaming"
         tag: "app"
         keywords: "plex movies shows tv"
-        url: "https://app.plex.tv"services:
-        - name: "Stirling PDF"
+        url: "https://app.plex.tv"
+      - name: "Stirling PDF"
         logo: "assets/icons/pdf.png"
         subtitle: "PDF Tools"
         tag: "app"
