@@ -9,7 +9,7 @@
 title: "Owen Daigle's Dashboard"
 subtitle: ""
 # documentTitle: "Welcome" # Customize the browser tab text
-logo: "assets/logo.png"
+logo: "../1mainResources/tief"
 # Alternatively a fa icon can be provided:
 # icon: "fas fa-skull-crossbones"
 
@@ -131,4 +131,25 @@ services:
         subtitle: "Media Streaming"
         tag: "app"
         keywords: "plex movies shows tv"
-        url: "https://app.plex.tv"
+        url: "https://app.plex.tv"services:
+        - name: "Stirling PDF"
+        logo: "assets/icons/pdf.png"
+        subtitle: "PDF Tools"
+        tag: "app"
+        keywords: "pdf document" # optional keyword used for searching purpose
+        url: "https://pdf.odaigle.xyz"
+  - name: "Games"
+    icon: "assets/icons/jellyfin.png"
+    items:
+      - name: "Minecraft Survival World Map"
+        logo: ""
+        subtitle: "mcmap1"
+        tag: "game"
+        keywords: "minecraft survival" # optional keyword used for searching purpose
+        url: "https://mcmap1.odaigle.xyz"
+        - name: "Minecraft Creative World Map"
+        logo: ""
+        subtitle: "mcmap2"
+        tag: "game"
+        keywords: "minecraft creative" # optional keyword used for searching purpose
+        url: "https://mcmap2.odaigle.xyz"
