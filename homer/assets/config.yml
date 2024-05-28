@@ -122,21 +122,18 @@ services:
         tag: "app"
         keywords: "files nextcloud" # optional keyword used for searching purpose
         url: "https://nc.odaigle.xyz"
-
         - name: "Jellyfin"
         logo: "assets/icons/jf.png"
         subtitle: "Media Streaming"
         tag: "app"
         keywords: "Movies Videos Shows jelly" # optional keyword used for searching purpose
         url: "https://jellyfin.odaigle.xyz"
-
         - name: "Plex"
         logo: "assets/icons/plex.png"
         subtitle: "Media Streaming"
         tag: "app"
         keywords: "Movies Videos Shows plex" # optional keyword used for searching purpose
         url: "https://app.plex.tv"
-
         - name: "Stirling PDF"
         logo: "assets/icons/pdf.png"
         subtitle: "PDF Tools"
@@ -153,7 +150,6 @@ services:
         tag: "game"
         keywords: "minecraft survival" # optional keyword used for searching purpose
         url: "https://mcmap1.odaigle.xyz"
-
         - name: "Minecraft Creative World Map"
         logo: ""
         subtitle: "mcmap2"
