@@ -16,12 +16,12 @@ body{
   font-family: Arial;
   padding: 1px 10px 20px 10px;
   position: absolute;
-  width: 40%;
+  width: 60%;
   top: 10%;
-  left: 30%;
+  left: 20%;
   animation-name: slidein;
   animation-duration: .7s;
-  border-radius: 20px;
+  border-radius: 12px;
   display: none;
   z-index: 10;
 }
@@ -74,9 +74,18 @@ body{
 
 /*title in menubox*/
 .menuBoxTitle {
-  padding-bottom: 10px;
   font-size: 30px;
   border-bottom:2px solid #444;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.menuBoxSubtitle {
+  padding-bottom: 10px;
+  margin-top: 0px;
+  border-bottom:2px solid #444;
+  font-size: 16px;
   text-align: center;
   display: block;
   color: white;
