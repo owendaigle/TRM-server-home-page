@@ -136,7 +136,7 @@ services:
         keywords: "plex movies shows tv"
         url: "https://app.plex.tv"
       - name: "Immich"
-        logo: ""
+        logo: "assets/icons/immich.svg"
         subtitle: "Image Software"
         tag: "Immich"
         type: "Immich"
@@ -163,42 +163,7 @@ services:
         tag: "game"
         keywords: "minecraft creative" # optional keyword used for searching purpose
         url: "https://mcmap2.odaigle.xyz"
-  - name: "LAN Only"
+  - name: "Other"
     icon: ""
     items:
-      - name: "Requests"
-        logo: ""
-        subtitle: "Media Requests"
-        tag: "game"
-        keywords: "minecraft survival" # optional keyword used for searching purpose
-        url: "http://192.168.50.11"
-      - name: "Portainer"
-        logo: ""
-        subtitle: "Docker Management"
-        tag: ""
-        keywords: "LAN local" # optional keyword used for searching purpose
-        url: "http://192.168.50.7:9000"
-      - name: "QBittorrent"
-        logo: ""
-        subtitle: "Torrents"
-        tag: ""
-        keywords: "LAN local" # optional keyword used for searching purpose
-        url: "http://192.168.50.5:8080"
-      - name: "Proxmox"
-        logo: ""
-        subtitle: "VM Management"
-        tag: ""
-        keywords: "LAN local" # optional keyword used for searching purpose
-        url: "http://192.168.50.42:8006"
-      - name: "TP Link Omada"
-        logo: ""
-        subtitle: "AP Management"
-        tag: ""
-        keywords: "LAN local" # optional keyword used for searching purpose
-        url: "http://192.168.50.14:8043"
-      - name: "Proxy Manager"
-        logo: ""
-        subtitle: "Website Management"
-        tag: ""
-        keywords: "LAN local" # optional keyword used for searching purpose
-        url: "http://192.168.50.7:81"
+      
