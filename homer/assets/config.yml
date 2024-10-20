@@ -100,6 +100,9 @@ links:
     url: "https://www.odaigle.xyz"
     target: "" # optional html tag target attribute
     # this will link to a second homer page that will load config from page2.yml and keep default config values as in config.yml file
+  - name: "LAN Stuff"
+    icon: "fas fa-file-alt"
+    url: "#page2"
   # see url field and assets/page.yml used in this example:
 
 # Services
@@ -132,6 +135,12 @@ services:
         tag: "app"
         keywords: "plex movies shows tv"
         url: "https://app.plex.tv"
+      - name: "Immich"
+        logo: ""
+        subtitle: "Image Software"
+        tag: "Immich"
+        keywords: "images photos imich immich " # optional keyword used for searching purpose
+        url: "https://immich.odaigle.xyz"
       - name: "Stirling PDF"
         logo: "assets/icons/pdf.png"
         subtitle: "PDF Tools"
@@ -162,3 +171,33 @@ services:
         tag: "game"
         keywords: "minecraft survival" # optional keyword used for searching purpose
         url: "http://192.168.50.11"
+      - name: "Portainer"
+        logo: ""
+        subtitle: "Docker Management"
+        tag: ""
+        keywords: "LAN local" # optional keyword used for searching purpose
+        url: "http://192.168.50.7:9000"
+      - name: "QBittorrent"
+        logo: ""
+        subtitle: "Torrents"
+        tag: ""
+        keywords: "LAN local" # optional keyword used for searching purpose
+        url: "http://192.168.50.5:8080"
+      - name: "Proxmox"
+        logo: ""
+        subtitle: "VM Management"
+        tag: ""
+        keywords: "LAN local" # optional keyword used for searching purpose
+        url: "http://192.168.50.42:8006"
+      - name: "TP Link Omada"
+        logo: ""
+        subtitle: "AP Management"
+        tag: ""
+        keywords: "LAN local" # optional keyword used for searching purpose
+        url: "http://192.168.50.14:8043"
+      - name: "Proxy Manager"
+        logo: ""
+        subtitle: "Website Management"
+        tag: ""
+        keywords: "LAN local" # optional keyword used for searching purpose
+        url: "http://192.168.50.7:81"
