@@ -19,7 +19,7 @@ header: true # Set to false to hide the header
 #   search: "Shift"
 footer: 'Forked from <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
 
-columns: "3" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
+columns: "4" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
 connectivityCheck: false # whether you want to display a message when the apps are not accessible anymore (VPN disconnected for example).
                         # You should set it to true when using an authentication proxy, it also reloads the page when a redirection is detected when checking connectivity.
 
@@ -102,68 +102,65 @@ links:
     # this will link to a second homer page that will load config from page2.yml and keep default config values as in config.yml file
   - name: "LAN Stuff"
     icon: "fas fa-file-alt"
-    url: "#LAN"
+    url: "#page2"
   # see url field and assets/page.yml used in this example:
 
 # Services
 # First level array represents a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Application"
+  - name: "Hardware"
     icon: ""
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
     # logo: "path/to/logo"
     items:
-      - name: "Jellyfin"
-        logo: "assets/icons/jellyfin.png"
-        # Alternatively a fa icon can be provided:
-        # icon: "fab fa-jenkins"
-        subtitle: "Media Streaming"
-        tag: "app"
-        keywords: "movies shows tv jelly" # optional keyword used for searching purpose
-        url: "https://jellyfin.odaigle.xyz"
-        target: "" # optional html tag target attribute
-      - name: "Nextcloud"
-        logo: "assets/icons/nextcloud.png"
-        subtitle: "File Storage"
-        tag: "app"
-        keywords: "files storage nextcloud nc"
-        url: "https://nc.odaigle.xyz"
-      - name: "Plex"
-        logo: "assets/icons/plex.png"
-        subtitle: "Media Streaming"
-        tag: "app"
-        keywords: "plex movies shows tv"
-        url: "https://app.plex.tv"
-      - name: "Immich"
-        logo: "assets/icons/immich.svg"
-        subtitle: "Image Software"
-        tag: "Immich"
-        type: "Immich"
-        keywords: "images photos imich immich " # optional keyword used for searching purpose
-        url: "https://immich.odaigle.xyz"
-      - name: "Stirling PDF"
-        logo: "assets/icons/pdf.png"
-        subtitle: "PDF Tools"
-        tag: "app"
-        keywords: "pdf document" # optional keyword used for searching purpose
-        url: "https://pdf.odaigle.xyz"
-  - name: "Games"
+      - name: "Portainer"
+        logo: ""
+        subtitle: "Docker Management"
+        tag: ""
+        keywords: "LAN local" # optional keyword used for searching purpose
+        url: "http://192.168.50.7:9000"   
+      - name: "Proxmox"
+        logo: ""
+        subtitle: "VM Management"
+        tag: ""
+        keywords: "LAN local" # optional keyword used for searching purpose
+        url: "http://192.168.50.42:8006"
+      
+      
+  - name: "LAN"
     icon: ""
     items:
-      - name: "Minecraft Survival World Map"
-        logo: "assets/icons/mc.png"
-        subtitle: "mcmap1"
-        tag: "game"
-        keywords: "minecraft survival" # optional keyword used for searching purpose
-        url: "https://mcmap1.odaigle.xyz"
-      - name: "Minecraft Creative World Map"
-        logo: "assets/icons/mc.png"
-        subtitle: "mcmap2"
-        tag: "game"
-        keywords: "minecraft creative" # optional keyword used for searching purpose
-        url: "https://mcmap2.odaigle.xyz"
+    - name: "TP Link Omada"
+      logo: ""
+      subtitle: "AP Management"
+      tag: ""
+      keywords: "LAN local" # optional keyword used for searching purpose
+      url: "http://192.168.50.14:8043"
+      
+  - name: "WAN"
+    icon: ""
+    items:
+    - name: "Proxy Manager"
+      logo: ""
+      subtitle: "Website Management"
+      tag: ""
+      keywords: "LAN local" # optional keyword used for searching purpose
+      url: "http://192.168.50.7:81"
+
   - name: "Other"
     icon: ""
     items:
+    - name: "QBittorrent"
+      logo: ""
+      subtitle: "Torrents"
+      tag: ""
+      keywords: "LAN local" # optional keyword used for searching purpose
+      url: "http://192.168.50.5:8080"
+    - name: "Requests"
+      logo: ""
+      subtitle: "Media Requests"
+      tag: "game"
+      keywords: "minecraft survival" # optional keyword used for searching purpose
+      url: "http://192.168.50.11"
       
