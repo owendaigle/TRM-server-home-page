@@ -88,21 +88,21 @@ message:
   #   content: 'value'
   # refreshInterval: 10000
   style: "is-warning"
-  title: "Under Construction"
+  title: "LAN ONLY"
   icon: "fa fa-exclamation-triangle"
-  content: "Website under construction. Downtime and changes expected."
+  content: "These links will only work on the Groovy LAN."
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Main Site"
+  - name: "Main Landing"
     icon: ""
     url: "https://www.odaigle.xyz"
     target: "" # optional html tag target attribute
     # this will link to a second homer page that will load config from page2.yml and keep default config values as in config.yml file
   - name: "LAN Stuff"
     icon: "fas fa-file-alt"
-    url: "#page2"
+    url: "#config"
   # see url field and assets/page.yml used in this example:
 
 # Services
@@ -115,15 +115,15 @@ services:
     # logo: "path/to/logo"
     items:
       - name: "Portainer"
-        logo: ""
+        logo: "assets/icons/portainer.png"
         subtitle: "Docker Management"
-        tag: ""
+        tag: "admin"
         keywords: "LAN local" # optional keyword used for searching purpose
         url: "http://192.168.50.7:9000"   
       - name: "Proxmox"
-        logo: ""
+        logo: "assets/icons/proxmox.png"
         subtitle: "VM Management"
-        tag: ""
+        tag: "admin"
         keywords: "LAN local" # optional keyword used for searching purpose
         url: "http://192.168.50.42:8006"
       
@@ -132,11 +132,11 @@ services:
     icon: ""
     items:
     - name: "TP Link Omada"
-      logo: ""
+      logo: "assets/icons/tplink.png"
       subtitle: "AP Management"
-      tag: ""
+      tag: "admin"
       keywords: "LAN local" # optional keyword used for searching purpose
-      url: "http://192.168.50.14:8043"
+      url: "https://192.168.50.14:8043"
       
   - name: "WAN"
     icon: ""
@@ -144,7 +144,7 @@ services:
     - name: "Proxy Manager"
       logo: ""
       subtitle: "Website Management"
-      tag: ""
+      tag: "admin"
       keywords: "LAN local" # optional keyword used for searching purpose
       url: "http://192.168.50.7:81"
 
@@ -152,15 +152,15 @@ services:
     icon: ""
     items:
     - name: "QBittorrent"
-      logo: ""
+      logo: "assets/icons/qbit.png"
       subtitle: "Torrents"
-      tag: ""
-      keywords: "LAN local" # optional keyword used for searching purpose
+      tag: "downloads"
+      keywords: "LAN local torrents download vpn" # optional keyword used for searching purpose
       url: "http://192.168.50.5:8080"
     - name: "Requests"
       logo: ""
       subtitle: "Media Requests"
-      tag: "game"
-      keywords: "minecraft survival" # optional keyword used for searching purpose
+      tag: "downloads"
+      keywords: "media requests downloads torrents" # optional keyword used for searching purpose
       url: "http://192.168.50.11"
       

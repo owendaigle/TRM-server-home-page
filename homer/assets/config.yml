@@ -74,7 +74,7 @@ colors:
     background-image: "assets/your/dark/bg.png"
 
 # Optional message
-message:
+#message:
   # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
   # mapping: # allows to map fields from the remote format to the one expected by Homer
   #   title: 'id' # use value from field 'id' as title
@@ -87,15 +87,15 @@ message:
   #   title: 'id'
   #   content: 'value'
   # refreshInterval: 10000
-  style: "is-warning"
-  title: "Under Construction"
-  icon: "fa fa-exclamation-triangle"
-  content: "Website under construction. Downtime and changes expected."
+  #style: "is-warning"
+  #title: "Under Construction"
+  #icon: "fa fa-exclamation-triangle"
+  #content: "Website under construction. Downtime and changes expected."
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Main Site"
+  - name: "Main Landing"
     icon: ""
     url: "https://www.odaigle.xyz"
     target: "" # optional html tag target attribute
