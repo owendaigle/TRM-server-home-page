@@ -9,7 +9,7 @@
 title: "Owen Daigle's Dashboard"
 subtitle: ""
 # documentTitle: "Welcome" # Customize the browser tab text
-logo: "../1mainResources/tief"
+logo: "../1mainResources/tief.jpg"
 # Alternatively a fa icon can be provided:
 # icon: "fas fa-skull-crossbones"
 
@@ -100,9 +100,15 @@ links:
     url: "https://www.odaigle.xyz"
     target: "" # optional html tag target attribute
     # this will link to a second homer page that will load config from page2.yml and keep default config values as in config.yml file
+  - name: "WAN Services"
+    icon: ""
+    url: "#config"
   - name: "LAN Stuff"
     icon: "fas fa-file-alt"
-    url: "#config"
+    url: "#LAN"
+  - name: "Personal Dash"
+    icon: ""
+    url: "#personal"
   # see url field and assets/page.yml used in this example:
 
 # Services
