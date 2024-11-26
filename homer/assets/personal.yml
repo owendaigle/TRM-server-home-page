@@ -121,12 +121,6 @@ services:
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
     # logo: "path/to/logo"
     items:
-      - name: "Notion"
-        logo: "assets/icons/notion.png"
-        subtitle: "Notes"
-        tag: "office"
-        keywords: "" # optional keyword used for searching purpose
-        url: "https://notion.so"   
       - name: "Namecheap"
         logo: "assets/icons/namecheap.png"
         subtitle: "Domain Management"
@@ -139,6 +133,12 @@ services:
         tag: "code"
         keywords: "" # optional keyword used for searching purpose
         url: "https://github.com"
+      - name: "XDA"
+        logo: "assets/icons/xda.png"
+        subtitle: "XDA Developpers Forum"
+        tag: "Forum"
+        keywords: "xda android phones tablet phone" # optional keyword used for searching purpose
+        url: "https://xdaforums.com/"   
       
       
       
@@ -162,6 +162,12 @@ services:
   - name: "Cloud"
     icon: ""
     items:
+      - name: "Notion"
+          logo: "assets/icons/notion.png"
+          subtitle: "Notes"
+          tag: "office"
+          keywords: "" # optional keyword used for searching purpose
+          url: "https://notion.so"   
       - name: "pCloud"
         logo: "assets/icons/pcloud.png"
         subtitle: "Cloud Storage"
@@ -170,14 +176,27 @@ services:
         url: "https://my.pcloud.com"
       - name: "Google Drive"
         logo: "assets/icons/gdrive.png"
-        subtitle: "Cloud Storage"
+        subtitle: "Cloud Storage from an annoying company"
         tag: "cloud"
-        keywords: "" # optional keyword used for searching purpose
+        keywords: "google" # optional keyword used for searching purpose
         url: "https://drive.google.com"
     
 
-  - name: "..."
+  - name: "Tools"
     icon: ""
     items:
+    - name: "Flathub"
+        logo: "assets/icons/flathub.png"
+        subtitle: "App Store for Linux"
+        tag: "Apps"
+        keywords: "apps flathub flatpak" # optional keyword used for searching purpose
+        url: "https://flathub.org/"   
+    - name: "IT Tools"
+        logo: "assets/icons/it.png"
+        subtitle: "Compilation of IT Tools"
+        tag: "tools"
+        keywords: "it tools" # optional keyword used for searching purpose
+        url: "https://it-tools.tech/"
+
     
       
