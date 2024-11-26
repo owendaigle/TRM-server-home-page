@@ -163,11 +163,11 @@ services:
     icon: ""
     items:
       - name: "Notion"
-          logo: "assets/icons/notion.png"
-          subtitle: "Notes"
-          tag: "office"
-          keywords: "" # optional keyword used for searching purpose
-          url: "https://notion.so"   
+        logo: "assets/icons/notion.png"
+        subtitle: "Notes"
+        tag: "office"
+        keywords: "" # optional keyword used for searching purpose
+        url: "https://notion.so"   
       - name: "pCloud"
         logo: "assets/icons/pcloud.png"
         subtitle: "Cloud Storage"
@@ -186,17 +186,17 @@ services:
     icon: ""
     items:
     - name: "Flathub"
-        logo: "assets/icons/flathub.png"
-        subtitle: "App Store for Linux"
-        tag: "Apps"
-        keywords: "apps flathub flatpak" # optional keyword used for searching purpose
-        url: "https://flathub.org/"   
+      logo: "assets/icons/flathub.png"
+      subtitle: "App Store for Linux"
+      tag: "Apps"
+      keywords: "apps flathub flatpak" # optional keyword used for searching purpose
+      url: "https://flathub.org/"   
     - name: "IT Tools"
-        logo: "assets/icons/it.png"
-        subtitle: "Compilation of IT Tools"
-        tag: "tools"
-        keywords: "it tools" # optional keyword used for searching purpose
-        url: "https://it-tools.tech/"
+      logo: "assets/icons/it.png"
+      subtitle: "Compilation of IT Tools"
+      tag: "tools"
+      keywords: "it tools" # optional keyword used for searching purpose
+      url: "https://it-tools.tech/"
 
     
       
