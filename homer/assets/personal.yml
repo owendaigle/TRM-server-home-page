@@ -126,7 +126,13 @@ services:
         subtitle: "Domain Management"
         tag: ""
         keywords: "" # optional keyword used for searching purpose
-        url: "https://drive.google.com"
+        url: "https://www.namecheap.com/myaccount/login/?ReturnUrl=%2f"
+      - name: "Cloudfare"
+        logo: "assets/icons/cloudfare.png"
+        subtitle: "Domain Management"
+        tag: ""
+        keywords: "" # optional keyword used for searching purpose
+        url: "https://dash.cloudflare.com"
       - name: "Github"
         logo: "assets/icons/github.png"
         subtitle: "Git"

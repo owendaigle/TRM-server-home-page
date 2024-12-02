@@ -128,9 +128,9 @@ services:
         keywords: "movies shows tv jelly" # optional keyword used for searching purpose
         url: "https://jellyfin.odaigle.xyz"
         target: "" # optional html tag target attribute
-      - name: "Nextcloud"
+      - name: "Nextcloud (Future)"
         logo: "assets/icons/nextcloud.png"
-        subtitle: "File Storage"
+        subtitle: "Not running yet"
         tag: "app"
         keywords: "files storage nextcloud nc"
         url: "https://nc.odaigle.xyz"
@@ -153,6 +153,12 @@ services:
         tag: "app"
         keywords: "pdf document" # optional keyword used for searching purpose
         url: "https://pdf.odaigle.xyz"
+      - name: "Memos"
+        logo: "assets/icons/memos.png"
+        subtitle: "Notes"
+        tag: "app"
+        keywords: "notes keep" # optional keyword used for searching purpose
+        url: "https://memos.odaigle.xyz"
   - name: "Games"
     icon: ""
     items:
@@ -171,4 +177,10 @@ services:
   - name: "Other"
     icon: ""
     items:
+    - name: "Authentik (Future)"
+        logo: "assets/icons/auth.png"
+        subtitle: "Not running yet"
+        tag: ""
+        keywords: "" # optional keyword used for searching purpose
+        url: ""
       
