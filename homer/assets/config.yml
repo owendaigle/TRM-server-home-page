@@ -177,10 +177,10 @@ services:
   - name: "Other"
     icon: ""
     items:
-  - name: "Authentik (Future)"
+    - name: "Authentik (Future)"
       logo: "assets/icons/auth.png"
       subtitle: "Not running yet"
       tag: ""
       keywords: "" # optional keyword used for searching purpose
       url: ""
-      
+        
