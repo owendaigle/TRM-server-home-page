@@ -114,7 +114,7 @@ links:
 # First level array represents a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Application"
+  - name: "Applications"
     icon: ""
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
     # logo: "path/to/logo"
@@ -177,6 +177,12 @@ services:
   - name: "Other"
     icon: ""
     items:
+    - name: "Umtime Kuma"
+      logo: "assets/icons/kuma.svg"
+      subtitle: "Track uptime of my services"
+      tag: ""
+      keywords: "uptime reliable reliability" # optional keyword used for searching purpose
+      url: "https://up.odaigle.xyz"
     - name: "Authentik (Future)"
       logo: "assets/icons/auth.png"
       subtitle: "Not running yet"

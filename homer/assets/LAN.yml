@@ -170,6 +170,12 @@ services:
       tag: "downloads"
       keywords: "LAN local torrents download vpn music" # optional keyword used for searching purpose
       url: "http://192.168.50.5:5030"
+    - name: "Umtime Kuma (Admin Board)"
+      logo: "assets/icons/kuma.svg"
+      subtitle: "Track uptime of my services - Admin Settings"
+      tag: ""
+      keywords: "uptime reliable reliability" # optional keyword used for searching purpose
+      url: "http://192.168.50.15:3001/manage-status-page"
     - name: "Requests (Dead)"
       logo: ""
       subtitle: "Media Requests"
