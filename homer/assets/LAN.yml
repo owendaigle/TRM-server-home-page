@@ -176,6 +176,12 @@ services:
       tag: ""
       keywords: "uptime reliable reliability" # optional keyword used for searching purpose
       url: "http://192.168.50.15:3001/manage-status-page"
+    - name: "Speedtest Tracker"
+      logo: "assets/icons/speedtest.png"
+      subtitle: "Speedtests"
+      tag: "internet"
+      keywords: "WAN speed internet" # optional keyword used for searching purpose
+      url: "http://192.168.50.7:9998"
     - name: "Requests (Dead)"
       logo: ""
       subtitle: "Media Requests"
