@@ -160,10 +160,17 @@ services:
     - name: "QBittorrent"
       logo: "assets/icons/qbit.png"
       subtitle: "Torrents"
+      type: "qBittorrent"
       tag: "downloads"
       keywords: "LAN local torrents download vpn" # optional keyword used for searching purpose
       url: "http://192.168.50.5:8080"
-    - name: "Requests"
+    - name: "SLSK"
+      logo: "assets/icons/slskd.png"
+      subtitle: "Music Sharing Service"
+      tag: "downloads"
+      keywords: "LAN local torrents download vpn music" # optional keyword used for searching purpose
+      url: "http://192.168.50.5:5030"
+    - name: "Requests (Dead)"
       logo: ""
       subtitle: "Media Requests"
       tag: "downloads"
