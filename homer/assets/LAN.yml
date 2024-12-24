@@ -126,12 +126,18 @@ services:
         tag: "admin"
         keywords: "LAN local" # optional keyword used for searching purpose
         url: "http://192.168.50.7:9000"   
-      - name: "Proxmox"
+      - name: "Proxmox Virtual Environment"
         logo: "assets/icons/proxmox.png"
         subtitle: "VM Management"
         tag: "admin"
         keywords: "LAN local" # optional keyword used for searching purpose
         url: "http://192.168.50.42:8006"
+      - name: "Proxmox Backup Environment"
+        logo: "assets/icons/proxmox.png"
+        subtitle: "VM Backup Management"
+        tag: "admin"
+        keywords: "LAN local" # optional keyword used for searching purpose
+        url: "http://192.168.50.196:8007"
       
       
   - name: "LAN"
@@ -147,7 +153,7 @@ services:
   - name: "WAN"
     icon: ""
     items:
-    - name: "Proxy Manager"
+    - name: "Nginx Proxy Manager"
       logo: ""
       subtitle: "Website Management"
       tag: "admin"
@@ -160,7 +166,6 @@ services:
     - name: "QBittorrent"
       logo: "assets/icons/qbit.png"
       subtitle: "Torrents"
-      type: "qBittorrent"
       tag: "downloads"
       keywords: "LAN local torrents download vpn" # optional keyword used for searching purpose
       url: "http://192.168.50.5:8080"

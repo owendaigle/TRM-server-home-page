@@ -128,9 +128,9 @@ services:
         keywords: "movies shows tv jelly" # optional keyword used for searching purpose
         url: "https://jellyfin.odaigle.xyz"
         target: "" # optional html tag target attribute
-      - name: "Nextcloud (Unstable)"
+      - name: "Nextcloud (future)"
         logo: "assets/icons/nextcloud.png"
-        subtitle: "Running, but not extensively tested yet"
+        subtitle: "Not Running"
         tag: "app"
         keywords: "files storage nextcloud nc"
         url: "https://nc.odaigle.xyz"
@@ -164,13 +164,19 @@ services:
     items:
       - name: "Minecraft Survival World Map"
         logo: "assets/icons/mc.png"
-        subtitle: "mcmap1"
+        subtitle: "OMS Survival 1"
+        tag: "game"
+        keywords: "minecraft survival" # optional keyword used for searching purpose
+        url: "https://mcmap3.odaigle.xyz"
+      - name: "Minecraft Survival2 World Map"
+        logo: "assets/icons/mc.png"
+        subtitle: "OMS Survival 2"
         tag: "game"
         keywords: "minecraft survival" # optional keyword used for searching purpose
         url: "https://mcmap1.odaigle.xyz"
       - name: "Minecraft Creative World Map"
         logo: "assets/icons/mc.png"
-        subtitle: "mcmap2"
+        subtitle: "OMS Creative 1"
         tag: "game"
         keywords: "minecraft creative" # optional keyword used for searching purpose
         url: "https://mcmap2.odaigle.xyz"
