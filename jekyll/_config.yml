@@ -14,4 +14,4 @@ plugins:
 
 
 # variables
-legacy-site-directory: old
+legacy-site-location: old
