@@ -26,3 +26,5 @@ This actually went very well, and as seen below, the back glass came off with no
 ![Picture of back glass removed](s7-back-gone-min.jpg)
 
 I then removed many of the components.
+
+I am testing
