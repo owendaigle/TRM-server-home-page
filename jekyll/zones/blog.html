@@ -1,0 +1,35 @@
+---
+layout: base
+title: Owen's Website
+pgtitle: Blog
+---
+
+
+<h1>This is my blog.</h1> 
+
+<p>I will post about basically whatever I am working on, and cool stuff that I am doing. </p>
+
+{% assign sorted_pages = site.pages | sort: 'update_date' | reverse %}
+
+{% for page in sorted_pages %}
+{% if page.url contains "/blog_posts/" %}
+{% if page.url contains "post.html" %}
+<ul class="post-list">
+  <li>
+    <span class="post-meta">{{ page.post_date | date: "%Y/%m/%d" | date: "%B %d, %Y"}} 
+      {% if page.post_date != page.update_date%}
+      - Updated on {{ page.update_date | date: "%Y/%m/%d" | date: "%B %d, %Y"}}
+    {% endif %}
+
+    </span>
+    <h3>
+      <a class="post-link" href="{{ page.url | page.url }}">
+        {{ page.title | escape }}
+      </a>
+    </h3>
+  </li>
+</ul>
+
+{% endif %}
+{% endif %}
+{% endfor %}
