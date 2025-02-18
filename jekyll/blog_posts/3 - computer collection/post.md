@@ -12,7 +12,7 @@ This is a list of many of the computers I have as well as their purpose, and why
 
 I am always tinkering with some computer or another, so odds are this list will never be fully up to date for some reason or another. 
 
-{% assign sorted_pages = site.pages | sort: 'update_date' | reverse %}
+{% assign sorted_pages = site.pages | sort: 'priority' | reverse %}
 
 {% for computer in sorted_pages %}
 {% if computer.url contains "/blog_posts/" %}

@@ -1,5 +1,6 @@
 ---
 update_date: 2025/02/17
+priority: 100
 device_name: Main Laptop
 specsheet_version: 1
 device_description: My main laptop

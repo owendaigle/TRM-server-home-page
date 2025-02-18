@@ -1,5 +1,6 @@
 ---
 update_date: 2025/02/17
+priority: 100
 device_name:  Main Computer
 specsheet_version: 1
 device_description: My main workstation that I physically use to do all my work. I use this often to remotely manage all my servers, play games, and almost everything that I do. When working remotely I often remote into this computer using my self hosted rustdesk instance. 
