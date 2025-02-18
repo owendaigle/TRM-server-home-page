@@ -10,7 +10,7 @@ device_picture_file_name:
 device_model: 
 device_operating_system: Proxmox
 device_cpu: AMD Ryzen 3 2200G
-device_cpu_cooler: 
+device_cpu_cooler: Stock
 device_ram_capacity: 48GB
 device_ram_speed: 2400MHz
 device_motherboard: 

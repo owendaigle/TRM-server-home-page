@@ -8,7 +8,7 @@ device_use:
 device_picture_file_name: 
 
 device_model: Asus G14 2022
-device_operating_system: Debian 12 with Linux 6.1
+device_operating_system: Debian 12 with Linux 6.1 on XFCE
 device_cpu: Ryzen 9 6900HS
 device_cpu_cooler: 
 device_ram_capacity: 32GB

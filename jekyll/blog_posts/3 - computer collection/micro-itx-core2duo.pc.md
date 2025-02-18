@@ -8,18 +8,18 @@ device_use:
 device_picture_file_name: 
 
 device_model: 
-device_operating_system: 
+device_operating_system: Varies
 device_cpu: Core 2 Duo E6600
-device_cpu_cooler: 
+device_cpu_cooler: Stock
 device_ram_capacity: 4GB
 device_ram_speed: 
 device_motherboard: 
 device_psu: 
-device_gpu1: 
+device_gpu1: Integrated
 device_gpu2: 
 device_case: Mini ITX Antec Case
 
-device_main_storage: 
+device_main_storage: Varies
 device_secondary_storage: 
 device_odd: 
 

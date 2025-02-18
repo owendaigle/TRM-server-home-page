@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Computer Collection
-post_date: 2025/02/13
-update_date: 2025/02/17
+post_date: 2025/02/17
+update_date: 2025/02/18
 topic: Collection
 author: Owen Daigle
 
@@ -49,6 +49,10 @@ I am always tinkering with some computer or another, so odds are this list will 
 
     {% if computer.device_cpu != null %}
         {% assign specs = specs | append: "<tr><td>CPU</td><td>" | append: computer.device_cpu | append: "</td></tr>" %}
+    {% endif %}
+
+    {% if computer.device_cpu_cooler != null %}
+        {% assign specs = specs | append: "<tr><td>CPU Cooler</td><td>" | append: computer.device_cpu_cooler | append: "</td></tr>" %}
     {% endif %}
 
     {% if computer.device_ram_capacity != null %}

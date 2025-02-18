@@ -3,7 +3,7 @@ update_date: 2025/02/17
 priority: 10
 device_name: File Server
 specsheet_version: 1
-device_description: For holding all my hard disks
+device_description: For holding all my hard disks and serving them over SMB
 device_use:
 device_picture_file_name: 
 
@@ -15,7 +15,7 @@ device_ram_capacity: 16GB
 device_ram_speed: 1600MHz
 device_motherboard: 
 device_psu: 
-device_gpu1: 
+device_gpu1: Some old random one just for the rare case when I need to physically do troubleshooting on the machine
 device_gpu2: 
 device_case: Old Black Antec Case
 

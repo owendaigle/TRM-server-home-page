@@ -20,7 +20,7 @@ device_gpu2:
 device_case: Old Antec Micro ITX Case
 
 device_main_storage: 480GB Patriot Burst SSD
-device_secondary_storage: 
+device_secondary_storage: 750GB old HDD mirrored with 2TB old HDD (I know not ideal setup, but it is what I have)
 device_odd: 
 
 device_primary_display:
