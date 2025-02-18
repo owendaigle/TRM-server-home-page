@@ -21,7 +21,7 @@ device_case: Old black one
 
 device_main_storage: 500gb Samsung 860 EVO
 device_secondary_storage: 1TB NVMe ssd, 1tb 7200RPM HDD
-device_odd: 
+device_odd: Dual Internal DVD Drives
 
 device_primary_display: Gigabyte 32in 1440p 
 device_secondary_display: Dell 24in 1080p and Sony 1080p 32in TV
