@@ -5,7 +5,7 @@ device_name: Mac Mini 2009
 specsheet_version: 1
 device_description: My only Apple device, this one is not actually running MacOS since I did not like it (and it is out of date). Right now it is used for printing on my Canon printer which does not have Linux drivers that work well enough and for things that I need a bare metal windows machine (such as ODIN3 for flashing samsung firmware)
 device_use:
-device_picture_file_name: 
+device_picture_file_name: mac-min.jpg
 
 device_model: Early 2009 Mac Mini
 device_operating_system: Windows 10 2019 LTSC

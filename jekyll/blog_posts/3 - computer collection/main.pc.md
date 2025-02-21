@@ -5,7 +5,7 @@ device_name:  Main Computer
 specsheet_version: 1
 device_description: My main workstation that I physically use to do all my work. I use this often to remotely manage all my servers, play games, and almost everything that I do. When working remotely I often remote into this computer using my self hosted rustdesk instance. 
 device_use:
-device_picture_file_name: null #null if no picture
+device_picture_file_name: main-min.jpg #null if no picture
 
 device_model: 
 device_operating_system: Debian 12 with Linux 6.12 with XFCE

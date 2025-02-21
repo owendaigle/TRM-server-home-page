@@ -5,7 +5,7 @@ device_name: Main Laptop
 specsheet_version: 1
 device_description: My main laptop
 device_use:
-device_picture_file_name: 
+device_picture_file_name: g14-min.jpg
 
 device_model: Asus G14 2022
 device_operating_system: Debian 12 with Linux 6.1 on XFCE

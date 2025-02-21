@@ -2,7 +2,7 @@
 layout: post
 title: Computer Collection
 post_date: 2025/02/17
-update_date: 2025/02/18
+update_date: 2025/02/21
 topic: Collection
 author: Owen Daigle
 
@@ -24,7 +24,7 @@ I am always tinkering with some computer or another, so odds are this list will 
 # {{ computer.device_name }}
 
 {% if computer.device_picture_file_name != null %}
-![picture of device]({{ computer.device_picture_file_name }})
+<img src="{{ computer.device_picture_file_name }}" width="50%">
 {% endif %}
 
 {{ computer.device_description }}
