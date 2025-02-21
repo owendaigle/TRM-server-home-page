@@ -15,7 +15,7 @@ I have this old toshiba satellite laptop I am working with. It has the following
 | Spec | Value |
 | - | - |
 | CPU | Pentium 4 @ 1.8 GHz |
-| RAM | 768 MHz | 
+| RAM | 768 Mb | 
 | Stock OS | Windows XP |
 | Current OS | Ubuntu 18.04 with LXDE |
 | HDD | 40GB |
