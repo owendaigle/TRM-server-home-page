@@ -2,7 +2,7 @@
 layout: post
 title: DDNS Problems for Website 
 post_date: 2025/03/02
-update_date: 2025/03/02
+update_date: 2025/03/16
 topic: Misc
 author: Owen Daigle
 
@@ -42,3 +42,6 @@ I did some testing on a non production domain with an unused subdomain of odaigl
 I just set it up on my production network and it seems to work fine. It should check the dns every 5 minutes, so if the public ip of the network changes (it rarely does), it should be back up and running within 5 minutes. 
 
 > I know that I should do some more testing before pushing it to production, but I don't want to and at the end of the day it does not really matter if it goes down for a bit because of this as my website is really not that important. Also I was already having issues with the previous ddns service meaning lots of downtime. 
+
+# UPDATE
+Two weeks later, it seems to be working fine, so my theory seems to be correct as is the solution I came up with. Uptime is very high over the last 2 weeks, in fact according to uptimerobot it is sitting at 100% for the past fortnight. Yay!!
