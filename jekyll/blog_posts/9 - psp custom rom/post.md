@@ -2,7 +2,7 @@
 layout: post
 title: PSP Custom Software
 post_date: 2025/03/10
-update_date: 2025/03/16
+update_date: 2025/03/28
 topic: Misc
 author: Owen Daigle
 
@@ -35,3 +35,6 @@ Practically, I would not really want to watch anything on this screen since the 
 Overall this was a very easy project, it only took me a few hours to get it up and running, most of that was just reading up on the methods and stuff and wondering "How on earth is this so easy????". Coming from flashing stuff on modern android phones where I have to unlock the bootloader, and then often use proprietary leaked software like odin3 to then flash the custom recovery, and only then can I flash the actual operating system I want to run, this is very nice. 
 
 I spent a lot more time just tinkering around, putting games on there, testing the games, customizing the software to my liking with plugins, themes, and stuff, and all sorts of tinkering. This is actually a nice device to use.
+
+# UPDATE
+It has been a few weeks since I did this, and I am actually using my PSP still. I have been using it on the bus ride to and from school, and it works very well. The sleep mode is amazing (except for a bit quirky where some games crach if I use it without first going into a menu) and it feels good, and somehow still has good battery life (despite this specific PSP battery being over 20 years old...). The only problem I have is how abysmally bad I am at all these video games. It is actually funny how awful I really am... Video games are definitely not my strength. For context, I have just started a new game yesterday, I am on the first mission in the game, and I cannot even get close to killing the boss. I just cannot figure it out. It does not help that I miss 90% of my shots and am not getting any better...
