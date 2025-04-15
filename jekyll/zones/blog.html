@@ -28,6 +28,9 @@ pgtitle: Blog
         {{ page.title | escape }}
       </a>
     </h3>
+    {% if page.description != null %}
+    {{ page.description }}
+    {% endif %}
   </li>
 </ul>
 
