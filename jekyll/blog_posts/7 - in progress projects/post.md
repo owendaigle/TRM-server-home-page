@@ -2,7 +2,7 @@
 layout: post
 title: Projects I am currently working on
 post_date: 2025/02/23
-update_date: 2025/02/23
+update_date: 2025/05/25
 topic: Misc
 author: Owen Daigle
 
@@ -16,5 +16,5 @@ Things may stay on this list for a donkey's age, or they might never make it to 
 
 - Learn more about docker/kubernetes (I already know the basics, but I want to know more)
 - Learn more about android building (I have already built for herolte, but want to start tinkering more, and building for more devices)
-- Get custom router up and running using OPNsense
-- Set up VLANs on home network
+- Get custom router up and running using OPNsense *UPDATE: I have figured out the basics of this now, still learning*
+- Set up VLANs on home network *UPDATE: I have figured out these now :-)*

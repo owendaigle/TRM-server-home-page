@@ -1,5 +1,5 @@
 ---
-update_date: 2025/02/17
+update_date: 2025/05/25
 priority: 100
 device_name:  Main Computer
 specsheet_version: 1
@@ -15,7 +15,7 @@ device_ram_capacity: 32gb
 device_ram_speed: 6000MHz
 device_motherboard: Asus B650-A
 device_psu: Corsair RM850X
-device_gpu1: Asus NVIDIA GTX 1650
+device_gpu1: Gigabyte RTX 2070
 device_gpu2: 
 device_case: Old black one
 
@@ -23,7 +23,7 @@ device_main_storage: 500gb Samsung 860 EVO
 device_secondary_storage: 1TB NVMe ssd, 1tb 7200RPM HDD
 device_odd: Dual Internal DVD Drives
 
-device_primary_display: Gigabyte 32in 1440p 
-device_secondary_display: Dell 24in 1080p and Sony 1080p 32in TV
+device_primary_display: Acer 1600x900
+device_secondary_display: Samsung 19in 1280*1024
 
 ---
