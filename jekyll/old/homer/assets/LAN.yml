@@ -187,10 +187,4 @@ services:
       tag: "internet"
       keywords: "WAN speed internet" # optional keyword used for searching purpose
       url: "http://192.168.50.7:9998"
-    - name: "Requests (Dead)"
-      logo: ""
-      subtitle: "Media Requests"
-      tag: "downloads"
-      keywords: "media requests downloads torrents" # optional keyword used for searching purpose
-      url: "http://192.168.50.11"
       

@@ -128,12 +128,12 @@ services:
         keywords: "movies shows tv jelly" # optional keyword used for searching purpose
         url: "https://jellyfin.odaigle.xyz"
         target: "" # optional html tag target attribute
-      - name: "Nextcloud (future)"
-        logo: "assets/icons/nextcloud.png"
-        subtitle: "Not Running"
+      - name: "SeaFile (beta)"
+        logo: "assets/icons/seafile.png"
+        subtitle: "File Storage"
         tag: "app"
-        keywords: "files storage nextcloud nc"
-        url: "https://nc.odaigle.xyz"
+        keywords: "files storage seafile sea sf"
+        url: "https://sf.odaigle.xyz"
       - name: "Plex (Deprecated)"
         logo: "assets/icons/plex.png"
         subtitle: "Media Streaming, Switching to Jellyfin"
@@ -183,7 +183,7 @@ services:
   - name: "Other"
     icon: ""
     items:
-    - name: "Umtime Kuma"
+    - name: "Uptime Kuma"
       logo: "assets/icons/kuma.svg"
       subtitle: "Track uptime of my services"
       tag: ""

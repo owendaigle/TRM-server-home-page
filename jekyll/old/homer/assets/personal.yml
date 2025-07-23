@@ -163,6 +163,10 @@ services:
         tag: "shopping"
         keywords: "" # optional keyword used for searching purpose
         url: "https://amazon.ca"
+      - name: "AliExpress"
+        logo: "assets/icons/aliexpress.png"
+        subtitle: "Cheap Shopping"
+        url: "https://www.aliexpress.com"
     
       
   - name: "Cloud"
@@ -203,6 +207,9 @@ services:
       tag: "tools"
       keywords: "it tools" # optional keyword used for searching purpose
       url: "https://it-tools.tech/"
+    - name: "Debian Website"
+      logo: "assets/icons/debian.png"
+      url: "https://debian.org"
 
     
       
