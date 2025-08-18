@@ -2,7 +2,7 @@
 layout: post
 title: Fixing a Gas Lawnmower
 post_date: 2025/07/01
-update_date: 2025/07/01
+update_date: 2025/08/17
 topic: Engines
 author: Owen Daigle
 description: Getting an old lawnmower up and running again by cleaning the carburator 
@@ -22,3 +22,9 @@ After putting the carburator back onto the machine, it still would not start... 
 Now the engine starts fine, and it runs fine with no problems. 
 
 My theory as to what happened was that the gas had decomposed, and the ethanol had caused it to gum up the engine. This is why I use ethanol free gas with my own small engines. It is also a good idea to empty the entire engine of gas whenever I am done with it so stale gas does not sit there and decompose, but that is annoying and not practical at least for me. 
+
+# Update
+
+Someone I know has a lawnmower that was having similar issues. So I offered to take a look and see what I could do. I cleaned the carb and put it back together and nothing happened. So I thought it was something different. I spent awhile looking into other things, and then I finally found that when I put the carburator back together I put one spring in the wrong position which caused the brake to be permenantly engaged. Once I fixed it it started up but did not run too well. I found the spark plug was all black so upon replacing that it was good as new!!
+
+I love learning new things. I still have a lot to learn about small engine repair though.

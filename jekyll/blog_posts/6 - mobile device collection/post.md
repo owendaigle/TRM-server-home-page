@@ -2,7 +2,7 @@
 layout: post
 title: Mobile Device Collection
 post_date: 2025/02/23
-update_date: 2025/05/25
+update_date: 2025/08/18
 topic: Collection
 author: Owen Daigle
 
