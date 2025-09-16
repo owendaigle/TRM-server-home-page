@@ -2,7 +2,7 @@
 layout: post
 title: Upgrading to Debian 13
 post_date: 2025/08/18
-update_date: 2025/08/18
+update_date: 2025/09/16
 topic: Software
 author: Owen Daigle
 description: Upgrading my desktop to Debian 13 from Debian 12. It was very easy 
@@ -18,3 +18,7 @@ I have not tested out everything yet, but from what I can tell it was a success.
 I really thought I would regret starting the update from 12 to 13 since it would take a lot of effort to get my workstation back up and running, but it really surprised me. 
 
 Great job Debian team!!
+
+# Update
+
+It still works well, no problems I have found yet. 
